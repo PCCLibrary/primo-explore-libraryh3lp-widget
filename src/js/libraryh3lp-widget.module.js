@@ -6,7 +6,7 @@ angular
   // so angular doesn't block it from an iframe
   .filter('trustUrl', ['$sce', function ($sce) {
     return function (url) {
-      if (/^http(s)?:\/\/(.+\.)?libraryh3lp\.com.+$/.test(url)) {
+      if (/^http(s)?:\/\/(.+\.)?pcc\.edu.+$/.test(url)) {
         return $sce.trustAsResourceUrl(url);
       }
     };

@@ -20,7 +20,7 @@ const webpackConfig = {
   devtool: 'sourcemap',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'index.js',
+    filename: 'chat.js',
     library: 'primoExploreLibraryh3lpWidget',
     libraryTarget: 'umd',
     libraryExport: 'default',
