@@ -65,6 +65,7 @@ app.constant('libraryh3lpWidgetConfig', {
   mode: 'iframe',
   url: 'https://us.libraryh3lp.com/chat/ask@chat.libraryh3lp.com?skin=1',
   prompt: 'Chat with us',
+  title: 'Chat with a librarian',
   icon: {
     set: 'communication',
     icon: 'ic_chat_24px'
@@ -79,6 +80,7 @@ app.constant('libraryh3lpWidgetConfig', {
   // 'http' or 'https' will be handled based on the protocol of your Primo server.
   url: 'libraryh3lp.com/js/libraryh3lp.js?7516',
   prompt: 'Chat with us',
+  title: 'Chat with a Librarian',
   icon: {
     set: 'communication',
     icon: 'ic_chat_24px'

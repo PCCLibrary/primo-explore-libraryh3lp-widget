@@ -1,4 +1,4 @@
-<button class="button chat-tab ss-chat js-toggle-chat" ng-class="$ctrl.klasses" ng-init="showChatWidget = false" ng-click="showChatWidget = !showChatWidget">
+<button title="{{$ctrl.title}}" class="button chat-tab ss-chat js-toggle-chat" ng-class="$ctrl.klasses" ng-init="showChatWidget = false" ng-click="showChatWidget = !showChatWidget">
   <prm-icon style="z-index:1" icon-type="svg" svg-icon-set="{{$ctrl.config.icon.set}}" icon-definition="{{$ctrl.config.icon.icon}}"></prm-icon>
   {{$ctrl.config.prompt}}
 </button>
