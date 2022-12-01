@@ -1,6 +1,6 @@
 <button aria-label="{{$ctrl.config.title}}" class="button chat-tab ss-chat js-toggle-chat" ng-class="$ctrl.klasses" ng-init="showChatWidget = false" ng-click="showChatWidget = !showChatWidget">
   <prm-icon style="z-index:1" icon-type="svg" svg-icon-set="{{$ctrl.config.icon.set}}" icon-definition="{{$ctrl.config.icon.icon}}"></prm-icon>
-  {{$ctrl.config.prompt}}
+  <span class="chat-label">{{$ctrl.config.prompt}}</span>
 </button>
 <div class="chat-frame-wrap" ng-class="$ctrl.klasses" ng-show="showChatWidget">
   <button class="chat-close ss-icon js-toggle-chat" title="Close chat window" ng-click="showChatWidget = !showChatWidget" aria-label="Close chat window">&times;</button>
